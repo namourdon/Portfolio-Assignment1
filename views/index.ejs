@@ -1,11 +1,124 @@
-<% include partials/header.ejs%>
+<!--Loads the home/index page 
+Nashia Amourdon-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+
+    <!-- CSS Section-->
+    <script src="Scripts/lib/jquery/dist/jquery.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <link rel='stylesheet' href='../Content/app.css' />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Lobster" rel="stylesheet">
+    <title>
+        <%= title %>
+    </title>
+</head>
+
 <body>
-<!--MAIN CONTENT-->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <div id="secFirst" class="sect secFirst">
+        <% include partials/header.ejs%>
+    </div>
+    <!--MAIN CONTENT-->
+    <!--
     <main class="container">
-        <h1><%= title %></h1>
-        <p>Welcome to
-            <%= title %></p>
-    </main>
-    
-<% include partials/footer.ejs%>
+        <h2>Welcome To My Online Portfolio</h2>
+        <h1>Nashia Amourdon</h1>
+        <div class="display">
    
+
+ </div>
+    </main>-->
+    <div class="subSection">
+        <h1><span class="sblock">About Me</span></h1>
+    </div>
+    <div id="secThree" class="sect secThree">
+        <img src="images/aboutme.jpg">
+        <h3> I am a passionate about web development, with an Advanced Diploma in
+            </br><span class="block">
+      Software Engineering Technology.
+      </span>
+      </br>
+      Looking forward to use the knowledge I aquired during my time at Centennial College.
+      </br>
+      
+      </br>
+      I'm a Seashell collector, beach lover and being volunteer by helping
+        </br> 
+      children learn <span class="block">French</span> are some things 
+      that I do when I am not behind my computer screen. 
+      
+      
+        </h3>
+    </div>
+    <div class="subSection">
+        <h1><span  class="sblock">My Projects</span></h1>
+    </div>
+
+    <div id="secSecond" class="sect secSecond">
+
+        <div class="thumb-container">
+
+            <div class="view">
+                <img src="../images/SolarSys.JPG" />
+
+                <div class="mask">
+                    <h2> Solar System</h2>
+                    <p>Using Typescript and gulp automation </p>
+                    <a href="http://solarsystem-nash.azurewebsites.net/" class="info">View Live</a>
+                </div>
+
+            </div>
+            <div class="view">
+                <img src="../images/Humain.JPG" />
+                <div class="mask">
+                    <h2> Human Character</h2>
+                    <p>Using Typescript </p>
+                    <a href="http://assignment1-nash.azurewebsites.net/" class="info">View Live</a>
+                </div>
+            </div>
+
+            <div class="view">
+                <img src="../images/RotatingTower.JPG" />
+                <div class="mask">
+                    <h2> Rotating Tower</h2>
+                    <p></p>
+                    <a href="http://comp392-midterm-nash.azurewebsites.net/" class="info">View Live</a>
+                </div>
+            </div>
+            <div class="view">
+                <img src="../images/RaftingAdv.JPG" />
+                <div class="mask">
+                    <h2>Rafting Adventures</h2>
+                    <p>Final project with three level, most assets were created in blender</p>
+                    <a href="http://raftingadventures.azurewebsites.net/" class="info">View Live</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subSection">
+        <h1><span  class="sblock">Contact Me</span></h1>
+    </div>
+    <div id="secSecond" class="sect secSecond">
+
+        <h2>
+            You can contact me and say "hello" @ "email". 
+           
+           
+    </div>
+   <div id="secSecond">    
+    <% include partials/footer.ejs%>
+    </div>
+</body>
+   
+   </html>

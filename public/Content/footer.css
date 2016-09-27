@@ -1,0 +1,42 @@
+h5{
+    margin-top:15px;
+     margin-left:180px;
+    font-family: 'Kalam', cursive;
+    color: #E98977;
+}
+footer{
+    
+    background:url("../images/28H.jpg");
+    height:25%;
+    background-size:cover;
+    background-position: center center;
+}
+.fnav{
+   
+    float:center;
+   
+}
+.fnav a{
+    display: inline-block;
+    margin-left:50px;
+     margin-top: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #E98977;
+    size: 14px;
+    font-family:  'Kalam', cursive;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.fnav a:hover{
+    color: #3B8686;
+}
+.flogo{
+    margin-top:5px;
+   margin-left:30px;
+    float: left;
+}
+.finfo{
+    margin:30px;
+}
